@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap');
 
-/* ─── Variables ─── */
+/*  Variables */
 :root {
   --bg: #0b0d14;
   --bg2: #12151f;
@@ -18,7 +18,7 @@
   --shadow: 0 20px 60px rgba(0,0,0,0.5);
 }
 
-/* ─── Reset ─── */
+/*Reset */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
@@ -32,7 +32,7 @@ body {
   overflow: hidden;
 }
 
-/* ─── Screens ─── */
+/* Screens  */
 .screen {
   position: fixed;
   inset: 0;
@@ -52,7 +52,7 @@ body {
   transform: translateY(0);
 }
 
-/* ─── Blobs ─── */
+/*  Blobs  */
 .home-bg, .result-bg {
   position: absolute;
   inset: 0;
@@ -74,7 +74,7 @@ body {
   to   { transform: translate(30px, 20px) scale(1.1); }
 }
 
-/* ─── HOME SCREEN ─── */
+/*  HOME SCREEN */
 .home-content {
   position: relative;
   z-index: 1;
@@ -189,7 +189,7 @@ body {
   opacity: 0.7;
 }
 
-/* ─── QUIZ SCREEN ─── */
+/* QUIZ SCREEN  */
 #screen-quiz {
   justify-content: flex-start;
   padding: 0;
@@ -533,7 +533,7 @@ body {
 }
 .btn-review:hover { background: var(--surface2); color: var(--text); }
 
-/* ─── REVIEW SCREEN ─── */
+/*  REVIEW SCREEN  */
 #screen-review { justify-content: flex-start; }
 
 .review-header {
@@ -616,7 +616,7 @@ body {
 /* SVG gradient for ring */
 svg defs { display: block; }
 
-/* ─── Responsive ─── */
+/*  Responsive  */
 @media (max-width: 480px) {
   .home-title { font-size: 2.5rem; }
   .home-stats { gap: 1rem; padding: 0.7rem 1.2rem; }
